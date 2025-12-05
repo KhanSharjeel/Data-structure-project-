@@ -8,6 +8,7 @@ int main() {
     cin>>number;
     cout << "You entered: " << number << endl;
     cout<<" This is C++17 standard code. "<<endl;
+    cout<<" Enjoy coding! "<<endl;
     return 0;
 }
 
