@@ -17,7 +17,7 @@ public:
 
     LinkedList();
     void insert(Student s);
-    void display()
+    void display();
 };
 
 #endif
