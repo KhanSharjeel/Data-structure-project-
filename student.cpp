@@ -2,17 +2,18 @@
 #include <iostream>
 using namespace std;
 
-Student::Student() {
+Student Student() {
     id = 0;
     name = "";
     age = 0;
 }
 
-Student::Student(int i, string n, int a) {
+Student Student(int i, string n, int a) {
     id = i;
     name = n;
     age = a;
 }
+
 
 void Student::input() {
     cout << "Enter ID: ";
