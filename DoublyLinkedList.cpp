@@ -45,6 +45,5 @@ void DoublyLinkedList::displayBackward() {
     while (temp != NULL) {
         temp->data.display();
         temp = temp->prev;
-        cout<<temp->data.name<<endl;
     }
 }
