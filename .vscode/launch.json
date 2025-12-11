@@ -5,13 +5,13 @@
             "name": "Run Student Project",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/program.exe",
+            "program": "${workspaceFolder}/program.exe", // <-- This is the executable name
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "console": "integratedTerminal",
-            "preLaunchTask": "build"
+            "preLaunchTask": "build" // <-- This MUST match the task label in tasks.json
         }
     ]
 }
