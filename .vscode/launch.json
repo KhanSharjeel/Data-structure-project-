@@ -1,18 +1,17 @@
 {
     "version": "0.2.0",
     "configurations": [
-        
         {
             "name": "Run Student Project",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/program.exe", // <-- This is the executable name
+            "program": "${workspaceFolder}/program.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "console": "integratedTerminal",
-            "preLaunchTask": "build" // <-- This MUST match the task label in tasks.json
+            "preLaunchTask": "build" // This calls your corrected tasks.json
         }
     ]
 }
