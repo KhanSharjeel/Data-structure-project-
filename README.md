@@ -174,23 +174,6 @@ Connects menus (Admin / Student)
 
 Calls functions from these structures
 
-🧠 How Everything Connects (Visual Map)
-               +----------------+
-               |   main.cpp     |
-               +----------------+
-                     | calls
-    ---------------------------------------------------
-    |           |               |            |        |
-    v           v               v            v        v
-+---------+ +------------+ +------------+ +-------+ +-------+
-| Student | |   BST      | | LinkedList | | Stack | | Queue |
-+---------+ +------------+ +------------+ +-------+ +-------+
-       ^            ^            ^           ^         ^
-       | stores     | stores     | stores    | stores  | stores
-       -------------+------------+-----------+---------+
-                     Student Objects
-
-
 ✔ Every structure uses Student class
 ✔ No structure inherits another
 ✔ Only object-to-object relationships (simple and beginner friendly)
